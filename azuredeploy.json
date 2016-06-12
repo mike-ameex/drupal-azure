@@ -78,8 +78,7 @@
             						"alwaysOn": false
                     }
                 },
-				
-				          "apiVersion": "2014-11-01",
+				        { "apiVersion": "2014-11-01",
 				          "name": "phpmyadmin",
 				          "type": "siteextensions",
 				          "dependsOn": [
