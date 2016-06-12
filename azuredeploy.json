@@ -78,6 +78,16 @@
             						"alwaysOn": false
                     }
                 },
+				{
+				          "apiVersion": "2014-11-01",
+				          "name": "ComposerExtension",
+				          "type": "siteextensions",
+				          "dependsOn": [
+				            "[parameters('siteName')]"
+				          ],
+				          "properties": {
+				          }
+       					},
                 {
                     "apiVersion": "2014-04-01",
                     "name": "web",
