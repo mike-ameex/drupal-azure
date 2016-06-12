@@ -76,10 +76,6 @@
           "properties": {
             "phpVersion": "5.6" 
           }
-        }
-			
-		   ]          
-	      }
         },
         {
           "apiVersion": "2014-04-01",
