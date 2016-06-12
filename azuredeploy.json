@@ -76,6 +76,7 @@
           "properties": {
             "phpVersion": "5.6" 
           }
+        }
 			
 		   ]          
 	      }
