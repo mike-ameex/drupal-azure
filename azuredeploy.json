@@ -84,6 +84,18 @@
             						"alwaysOn": false
                     }
                 },
+                {
+          "apiVersion": "2015-08-01",
+          "name": "appsettings",
+          "type": "config",
+          "dependsOn": [
+            "[resourceId('Microsoft.Web/Sites', parameters('siteName'))]"
+          ],
+          "properties": {
+            "PHPMYADMIN_EXTENSION_VERSION": "latest"
+          }
+        },
+
 				{
 				          "apiVersion": "2014-11-01",
 				          "name": "ComposerExtension",
