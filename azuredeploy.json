@@ -77,7 +77,7 @@
 												"virtualApplications": [
               							{
                 								"virtualPath": "/",
-                								"physicalPath": "site\\wwwroot"
+                								"physicalPath": "site\\wwwroot\\public"
               							}
 												],
 												"webSocketsEnabled": false,
@@ -87,16 +87,6 @@
 				{
 				          "apiVersion": "2014-11-01",
 				          "name": "ComposerExtension",
-				          "type": "siteextensions",
-				          "dependsOn": [
-				            "[parameters('siteName')]"
-				          ],
-				          "properties": {
-				          }
-       					},
-       					{
-				          "apiVersion": "2014-11-01",
-				          "name": "phpmyadmin",
 				          "type": "siteextensions",
 				          "dependsOn": [
 				            "[parameters('siteName')]"
